@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this benchmark set, please cite it as below."
+type: dataset
+title: "Verification of Fluid Network Studio: 31 benchmark cases against closed-form solutions, OWA-EPANET 2.2 and NASA GFSSP"
+version: "1.1"
+date-released: "2026-11-18"
+license: CC-BY-4.0
+authors:
+  - family-names: Jordaan
+    given-names: Haimi
+    orcid: "https://orcid.org/0009-0001-3595-0538"
+doi: "10.5281/zenodo.22080506"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22080506"
+    description: "All versions on Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.22080507"
+    description: "Version 1.0"
+url: "https://www.fluidnetworkstudio.com/verification"
+keywords:
+  - pipe network analysis
+  - hydraulic network solver
+  - verification and validation
+  - EPANET
+  - GFSSP
+  - benchmark
+abstract: >-
+  Thirty-one benchmark cases for pipe network solvers, each with a cited reference value,
+  the value computed by Fluid Network Studio, the deviation and a pre-declared acceptance band.
+  Same-family comparisons agree within 0.32% and cross-code comparisons within 2.61%.
